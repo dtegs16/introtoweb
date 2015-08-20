@@ -1,0 +1,35 @@
+/**/
+/*GLOBAL STYLING*/
+/**/
+body {
+	background-color: #d4d4d4;
+	font-family: arial;
+	/*some browsers put margin on body as default*/
+	margin:0;
+	padding:0;
+}
+header, .content, footer {
+	/*all three biggest building blocks of the website has the same width*/
+	/*it's still better to define the widths for them individually since*/
+	/*.content may have a different width if we had an aside next to it*/
+	width:1366px;
+	/*since it uses a fixed width, we'll center it*/
+	margin: 0 auto;
+}
+ul {
+	/*get rid of default ul styles*/
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+section {
+	/*each section inside .content will be as wide*/
+	width:100%;
+}
+
+.logo_top {
+	width: 100%;
+}
